@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="sorting.css">
+    <title>
+        Sorting Visualizer
+    </title>
+</head>
+<body>
+
+    <h2 style="color: white; text-align: center; text-decoration: underline;">Sorting Visualizer</h2>
+
+    <div id="bar"></div>
+    <br><br>
+
+    <button id="newarr" class="btn info">New array</button>
+    
+    <span style="font-size: large; color: white;">
+        Size:<input id="sizer" type="range" min=5 max=100 step=1 value=60>
+    </span>
+    
+    
+    <span style="font-size: large; color: white;">
+        Speed:<input id="speed" type="range" min=5 max=240 step=1 value=100>
+    </span><br><br>
+
+    <button id="bubble" class="btn success">Bubble Sort</button>
+    <button id="selection" class="btn success">Selection Sort</button>
+    <button id="insertion" class="btn success">Insertion Sort</button>
+    <button id="merge" class="btn success">Merge Sort</button>
+    <button id="quick" class="btn success">Quick Sort</button>
+
+
+    <script src="SortAlgo/sorting.js"></script>
+    <script src="SortAlgo/bubble.js"></script>
+    <script src="SortAlgo/selection.js"></script>
+    <script src="SortAlgo/insertion.js"></script>
+    <script src="SortAlgo/merge.js"></script>
+    <script src="SortAlgo/quick.js"></script>
+
+</body>
+
+</html>
